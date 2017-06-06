@@ -12,7 +12,7 @@
 
 const Alexa = require('alexa-sdk');
 
-const APP_ID = 'amzn1.ask.skill.9e811522-315d-4f07-a0d8-749fdbc86717'; 
+const APP_ID = 'alexa-skill-id'; 
 
 const languageStrings = {
     'en': {
