@@ -4,7 +4,7 @@ var request = require("request");
 function getMetrics(callback)
 {
 	request.get({  
-    url: "http://rest-api-host:8080/metrics",
+    url: "http://104.198.174.99:8080/metrics",
     timeout: 3000 
 	}, function (err, res, body) {
    		console.log(body);
@@ -15,7 +15,7 @@ function getMetrics(callback)
 function light(opt,callback)
 {
 	request.put({  
-    url: "http://rest-api-host:8080/light?opt="+opt,
+     url: "http://104.198.174.99:8080/light?opt="+opt,
     timeout: 3000 
 	}, function (err, res, body) {
    		console.log(body);

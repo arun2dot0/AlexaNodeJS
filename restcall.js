@@ -1,7 +1,7 @@
 var http = require('http');
  
 var optionsget = {
-    host : 'rest-api-host', // here only the domain name
+    host : '104.198.174.99', // here only the domain name
     // (no http/https !)
     port : 8080,
     path : '/metrics', // the rest of the url with parameters if needed

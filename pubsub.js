@@ -1,8 +1,9 @@
 var PubNub = require('pubnub')
 
 var pubnub = new PubNub({
-        publishKey : 'publishkey',
-        subscribeKey : 'subscribekey'
+   publishKey : 'pub-c-5100138b-1286-477b-836e-55f23e3b0f8c',
+        subscribeKey : 'sub-c-5c3f5f40-4190-11e7-86e2-02ee2ddab7fe'
+
     })
 
 module.exports.send = function(message,callback) {
